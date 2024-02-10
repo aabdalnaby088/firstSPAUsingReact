@@ -1,0 +1,29 @@
+.icon 
+{
+    position: relative;
+}
+
+.icon::after
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    border-top: 2px solid #fff !important;
+    top: 50%;
+    left: 120%;
+}
+.icon::before
+{
+    content: "";
+    width: 100px;
+    position: absolute;
+    border-top: 2px solid #fff !important;
+    top: 50%;
+    right: 120%;
+}
+
+.icon i 
+{
+    color: #fff !important;
+}

@@ -1,0 +1,46 @@
+.title
+{
+    color: #2c3e50;
+}
+
+.contact
+{
+    height: 100vh;
+}
+
+
+.icon {
+    position: relative;
+}
+
+.icon i
+{
+    color: #2c3e50;
+}
+
+
+.icon::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    border-top: 3px solid #2c3e50;
+    top: 50%;
+    left: 120%;
+}
+
+.icon::before {
+    content: "";
+    width: 100px;
+    position: absolute;
+    border-top: 3px solid #2c3e50 ;
+    top: 50%;
+    right: 120%;
+}
+
+input
+{
+    border-top: none !important ;
+    border-left: none !important ;
+    border-right: none !important ;
+}

@@ -1,0 +1,21 @@
+.layer
+{
+    top: 0;
+    bottom: 0 ; 
+    left: 0;
+    right: 0;
+    background-color: #1abc9c;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.itemHolder:hover .layer
+{
+    opacity: 1;
+}
+
+
+.layer i 
+{
+    font-size: 100px;
+}

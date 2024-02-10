@@ -1,0 +1,49 @@
+.Modal
+{
+position: fixed;
+top: 0;
+bottom: 0 ; 
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Modal img
+{
+    width: 30%;
+}
+
+
+.Modal .fa-arrow-right
+{
+    top: 50%;
+    font-size: 30px;
+    right: 0%;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Modal .fa-arrow-right:hover
+{
+    transform: scale(1.1);
+    color: #1abc9c;
+
+}
+
+.Modal .fa-arrow-left
+{
+    top: 50%;
+    font-size: 30px;
+    left: 0%;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Modal .fa-arrow-left:hover {
+transform: scale(1.1);
+color: #1abc9c;
+
+}
+
