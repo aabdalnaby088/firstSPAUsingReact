@@ -15,7 +15,6 @@ export default function Modal(props) {
 
 const moveForward = (e) =>
 {
-
         const nextIndex = (currentIndex + 1) % props.imageArr.length;
         setCurrentIndex(nextIndex);
 }

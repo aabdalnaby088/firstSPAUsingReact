@@ -5,13 +5,13 @@ import Abouttt from './components/About/Abouttt';
 import Contactt from './components/Contact/Contactt';
 import Protfolio from './components/Protfolio/Protfolio';
 import Layout from './components/LayOut/Layout';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 
 // #1abc9c
 // #2c3e50
 
 
-let routes = createBrowserRouter(
+let routes = createHashRouter(
 [  {
     path: "/", element:<Layout/> , children:[
       {index : true, element : <Homeee/>},
