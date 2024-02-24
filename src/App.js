@@ -15,10 +15,11 @@ let routes = createHashRouter(
 [  {
     path: "/", element:<Layout/> , children:[
       {index : true, element : <Homeee/>},
-      {path : "Home" , element : <Homeee/>},
-      {path : "Aboutt" , element : <Abouttt/>},
-      {path : "Portfolio" , element : <Protfolio />},
-      {path : "Contactt" , element : <Contactt/>}
+      {path : "/Home" , element : <Homeee/>},
+    { path: "/firstSPAUsingReact" , element : <Homeee/>},
+      {path : "/Aboutt" , element : <Abouttt/>},
+      {path : "/Portfolio" , element : <Protfolio />},
+      {path : "/Contactt" , element : <Contactt/>}
     ]
   }]
 )
